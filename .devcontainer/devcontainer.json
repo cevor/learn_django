@@ -1,0 +1,38 @@
+{
+	"name": "Project Template",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": "..",
+	},
+	// Set *default* container specific settings.json values on container create.
+	"settings": {
+		"terminal.integrated.profiles.linux": {
+			"bash": {
+				"path": "/bin/bash"
+			}
+		},
+		"terminal.integrated.defaultProfile.linux": "bash",
+		"python.pythonPath": "/usr/local/bin/python",
+		"python.languageServer": "Pylance",
+		"python.linting.enabled": true,
+		"python.linting.pylintEnabled": false,
+		"python.linting.pycodestyleEnabled": true,
+		"python.linting.pydocstylePath": "/usr/local/py-utils/bin/pydocstyle",
+		"python.formatting.provider": "black",
+		"python.formatting.blackPath": "/usr/local/py-utils/bin/black",
+		"python.formatting.blackArgs": [
+			"--line-length",
+			"79"
+		],
+		"editor.formatOnSave": true,
+	},
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"ms-python.python",
+		"ms-python.vscode-pylance",
+		"ms-toolsai.jupyter",
+		"davidanson.vscode-markdownlint",
+		"github.vscode-pull-request-github",
+		"redhat.vscode-yaml"
+	],
+}
