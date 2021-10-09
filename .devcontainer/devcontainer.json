@@ -17,9 +17,9 @@
 		"python.linting.enabled": true,
 		"python.linting.pylintEnabled": false,
 		"python.linting.pycodestyleEnabled": true,
-		"python.linting.pydocstylePath": "/usr/local/py-utils/bin/pydocstyle",
+		"python.linting.pycodestylePath": "/usr/local/bin/pycodestyle",
 		"python.formatting.provider": "black",
-		"python.formatting.blackPath": "/usr/local/py-utils/bin/black",
+		"python.formatting.blackPath": "/usr/local/bin/black",
 		"python.formatting.blackArgs": [
 			"--line-length",
 			"79"
