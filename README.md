@@ -1,1 +1,1 @@
-# VS Code Template for Python Development
+# Django Framework
