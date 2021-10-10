@@ -33,3 +33,4 @@ lib/
 /client-secret.json
 /service-account.json
 /config.py
+learn_site/db.sqlite3
