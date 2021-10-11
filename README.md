@@ -72,3 +72,13 @@ views.py
 ## Run Dev Server
 
     python manage.py runserver
+
+## Create superuser
+
+Run
+
+    python manage.py createsuperuser
+
+super user: admin
+
+password: 12345678
