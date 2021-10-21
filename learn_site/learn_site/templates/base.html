@@ -4,7 +4,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Untitled Document</title>
+    <title>
+        {% block title %}
+        Untitled Document
+        {% endblock title %}
+    </title>
     <link href="{% static 'main.css' %}" rel="stylesheet" type="text/css">
 </head>
 
@@ -24,8 +28,10 @@
             </nav>
         </aside>
         <section id="main">
+            {% block content %}
             <h1>Welcome!</h1>
             <p>This is the site template</p>
+            {% endblock content %}
         </section>
         <footer id="footer">Copyright &copy; 2019 Meandco Web Design</footer>
     </div>
